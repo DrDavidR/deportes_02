@@ -1,0 +1,19 @@
+
+html, body {
+  height: 100%;
+  margin: 0;
+  background-color: #800080 ; /* Asegurando que el fondo es morado */
+}
+
+mat-card {
+  max-width: 250px; /* Ajusta este valor según tus necesidades */
+  margin: auto;
+  margin-top: 5%;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+mat-form-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: center; /* Centrar verticalmente los contenidos */
+}

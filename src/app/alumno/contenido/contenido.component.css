@@ -1,0 +1,24 @@
+/* Estilo para el contenedor del video */
+.embed-responsive {
+  position: relative;
+  height: 0;
+  padding-bottom: 56.25%;
+}
+
+/* Estilo para el video dentro del contenedor */
+.embed-responsive video {
+  position: absolute;
+  bottom: 0; /* Lo ubicamos a 0px del borde inferior */
+  left: 0;
+  width: 100%;
+  height: calc(100% - 20px); /* Restamos 20px para dejar espacio entre el video y el borde inferior */
+  border-radius: 8px;
+}
+
+/* Estilo para el contenido del cuadro */
+.custom-content-item {
+  height: 330px; /* Altura fija para los cuadros */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}

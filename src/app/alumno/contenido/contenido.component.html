@@ -1,0 +1,14 @@
+<p>contenido works!</p>
+
+
+
+<!-- Mostrar los items seleccionados -->
+<div class="container mt-4">
+  <h3>Contenido Seleccionado</h3>
+  <ul>
+    <li *ngFor="let selectedItem of selectedItems">{{ selectedItem }}</li>
+  </ul>
+</div>
+
+<!-- Muestra los datos en la página HTML -->
+<pre>{{ items | json }}</pre>

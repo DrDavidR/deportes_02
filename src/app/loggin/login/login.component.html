@@ -1,0 +1,25 @@
+<mat-card>
+  <mat-card-header>
+    <mat-card-title>&#160;&#160;&#160;&#160;&#160;&#160;&#160;Iniciar Sesión</mat-card-title>
+  </mat-card-header>
+  <mat-card-content>
+    <form #loginForm="ngForm" (ngSubmit)="onSubmit(loginForm)">
+      <div>
+        <mat-form-field>
+          <input matInput placeholder="Usuario" name="username" [(ngModel)]="username" required>
+          <button mat-button class="next-button" *ngIf="!showPasswordField" (click)="showPasswordField = true">Siguiente</button>
+        </mat-form-field>
+      </div>
+
+      <div *ngIf="showPasswordField">
+        <mat-form-field>
+          <input matInput type="password" placeholder="Contraseña" name="password" [(ngModel)]="password" required>
+        </mat-form-field>
+      </div>
+
+      <div *ngIf="showPasswordField">
+        <button mat-raised-button color="primary" type="submit">Iniciar Sesión</button>
+      </div>
+    </form>
+  </mat-card-content>
+</mat-card>

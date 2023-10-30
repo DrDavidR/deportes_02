@@ -1,0 +1,27 @@
+[
+  {
+    "title": "Pateo",
+    "description": "La secuencia de patadas, consiste en patear una vez luego dos y luego tres",
+    "video": "assets/video1.mp4"
+  },
+  {
+    "title": "Formas",
+    "description": "La forma de tu cinta es esta y tiene un significado en tu corazón",
+    "video": "assets/video2.mp4"
+  },
+  {
+    "title": "Defensa personal",
+    "description": "Aqui es donde aplicas lo que aprendes en la vida real",
+    "video": "assets/video3.mp4"
+  },
+  {
+    "title": "Bankai",
+    "description": "La forma en japonés de decir lo anterior",
+    "video": "assets/video4.mp4"
+  },
+  {
+    "title": "Rompimiento",
+    "description": "Por si te gusta romper y hacer videos estos son los rompimientos que puedes hacer",
+    "video": "assets/video5.mp4"
+  }
+]

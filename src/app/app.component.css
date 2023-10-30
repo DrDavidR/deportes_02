@@ -1,0 +1,39 @@
+@import '~@angular/material/prebuilt-themes/indigo-pink.css';
+
+.sidenav-nav {
+  display: flex;
+  flex-direction: column; /* Hace que los botones se apilen verticalmente */
+  padding-left: 16px; /* añadir relleno a la izquierda */
+  padding-right: 36px !important; /* añadir relleno a la derecha */
+}
+
+.nav-button {
+  width: 100%; /* Hace que el botón ocupe todo el ancho de su contenedor */
+  margin: 16px 16px !important; /* Espacio alrededor de cada botón */
+  font-size: 20px !important; /* Tamaño de fuente del botón */
+  padding: 12px 24px !important; /* Espacio alrededor del texto dentro del botón */
+  background-color: #54008c !important; /* Asegurándose de que el fondo del botón sea del mismo color que la sidenav */
+  color: #ffffff !important; /* Cambiar el color de la letra a blanco */
+}
+
+.nav-button:focus {
+  outline: none; /* Elimina el contorno alrededor del botón cuando está enfocado */
+}
+
+mat-card-title,
+mat-form-field {
+  text-align: center;
+}
+
+mat-card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo-container {
+  display: flex;
+  justify-content: center;
+  height: 20vh;
+}
